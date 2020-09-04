@@ -24,7 +24,7 @@ elif class1.lower()=="d":
 else:
     p1 = 0.0
 credit1 = float(input("Enter your course 1 credit: "))
-print(f"Grade point for course 1 is {p1}")
+print(f"Grade point for course 1 is: {p1}")
 
 class2 = input("Enter your course 2 letter grade: ")
 if class2.lower()=="a" or class2.lower()=="a+":
@@ -46,7 +46,7 @@ elif class2.lower()=="d":
 else:
     p2 = 0.0
 credit2 = float(input("Enter your course 2 credit: "))
-print(f"Grade point for course 2 is {p2}")
+print(f"Grade point for course 2 is: {p2}")
 
 class3 = input("Enter your course 3 letter grade: ")
 if class3.lower()=="a" or class3.lower()=="a+":
@@ -68,6 +68,6 @@ elif class3.lower()=="d":
 else:
     p3 = 0.0
 credit3 = float(input("Enter your course 3 credit: "))
-print(f"Grade point for course 3 is {p3}")
+print(f"Grade point for course 3 is: {p3}")
 
 print(f"Your GPA is: {(p1*credit1 + p2*credit2 + p3*credit3)/(credit1+credit2+credit3)}")
