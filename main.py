@@ -69,5 +69,4 @@ else:
     p3 = 0.0
 credit3 = float(input("Enter your course 3 credit: "))
 print(f"Grade point for course 3 is: {p3}")
-
 print(f"Your GPA is: {(p1*credit1 + p2*credit2 + p3*credit3)/(credit1+credit2+credit3)}")
